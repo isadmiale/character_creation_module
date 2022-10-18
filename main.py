@@ -95,7 +95,7 @@ def choice_char_class() -> str:
     return char_class
 
 
-def main() -> None:
+if __name__ == '__main__':
     print('Приветствую тебя, искатель приключений!')
     print('Прежде чем начать игру...')
     char_name: str = input('...назови себя: ')
@@ -107,4 +107,4 @@ def main() -> None:
     print(start_training(char_name, char_class))
 
 
-main()
+# main()
